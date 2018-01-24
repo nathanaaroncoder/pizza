@@ -2,36 +2,36 @@
 
 <div id="devoured-div">
 <h2>Pizzas We Already Nommed</h2>
-{{!-- <ul> --}}
+
   {{#each pizzas}}
   {{#if this.devoured}}
-  {{!-- <li> --}}
+
     <p>
       {{this.id}}. {{this.pizza_name}}
 
-      {{!-- <button data-planid="{{this.id}}" class="devourIt">Devour it!</button> --}}
+      
     </p>
-  {{!-- </li> --}}
+
   {{/if}}
   {{/each}}
-{{!-- </ul> --}}
+
 </div>
 
 <div id="can-eat-div">
 <h2>Pizzas We Can Still Eat</h2>
-{{!-- <ul> --}}
+
   {{#each pizzas}}
   {{#unless this.devoured}}
-  {{!-- <li> --}}
+
     <p>
       {{this.id}}. {{this.pizza_name}}
 
       <button data-pizzaid="{{this.id}}" class="devourIt btn btn-danger" type="button" >Devour it!</button>
     </p>
-  {{!-- </li> --}}
+
   {{/unless}}
   {{/each}}
-{{!-- </ul> --}}
+
 </div>
 
 
