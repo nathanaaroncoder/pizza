@@ -8,6 +8,8 @@ body {
 h1 {
     font-size: 90px;
     text-align: center;
+    background-color: white;
+    color: #2a2829;
 }
 
 #devoured-div{
