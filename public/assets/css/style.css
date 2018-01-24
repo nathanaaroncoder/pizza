@@ -1,0 +1,37 @@
+body {
+    color: white;
+    background-image: url(../images/pizza_background.jpg);
+    font-family: 'Righteous', cursive;    
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+}
+
+#devoured-div{
+    margin: 20px;
+    float: left;
+}
+
+#can-eat-div{
+    margin: 20px;
+    float: right;
+}
+
+.createPizza {
+    clear: both;
+    margin: auto;
+    width: 25%;
+}
+
+#create-button{
+    margin: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
